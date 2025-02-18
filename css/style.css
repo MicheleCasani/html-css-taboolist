@@ -17,19 +17,55 @@ padding: 2% 0% 5% 5%;}
 /* pulsante 1 */
 #tasto-blu{background-color: rgb(84, 84, 196);
 color: white; padding: 5px; border-radius: 10px;
-border: 1px solid grey}
+border: 1px solid grey;
+padding: 5px 10px;}
 /* pulsante2 */
 #tasto-grigio{background-color: rgb(255, 255, 255);
-    color: rgb(175, 175, 175); padding: 5px; border-radius: 10px;
-border: 1px solid grey;}
-/* margine tabella*/
+    color: rgb(204, 204, 204); padding: 5px; border-radius: 10px;
+border: 1px solid rgb(204, 204, 204);
+padding: 5px 10px;}
+/* margine lista*/
 .margine{padding-top: 5%;}
-/* marginen tabella interno */
+/* marginen lista tra paragrafi */
 .margine2{padding-top: 2%;}
 /* dot-none */
 .dot-none{ list-style-type: none;}
 /* pulsanti lista */
 .pulsanti{display: inline-block;}
 /*personalizzazione tasti */
-.edit-pulsanti
-
+.edit-pulsanti{background-color: rgb(84, 84, 196);
+    color: white; border-radius: 200px;
+    border: 1px solid grey;
+font-size: 10px;padding: 5px 10px;}
+    /* margine lista tra righe */
+    .margine3{padding-top: 10px}
+    /* cambio colore tasti */
+    #viola{background-color: rgb(146, 0, 190);}
+    #rosa{background-color: rgb(229, 142, 255);}
+    #verde{background-color: rgb(61, 167, 70);}
+    #arancione{background-color: rgb(255, 169, 40);}
+    #giallo{background-color: rgb(127, 163, 28);}
+    /* flag verde  */
+    .flag-verde{background-color: white;
+        width: 20px;
+        height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid green;
+    color: green;
+    font-size: 13px;
+    margin-right: 5px;
+}
+/*  */
+.x-rosso{background-color: white;
+    width: 20px;
+    height: 20px;
+border-radius: 50%;
+vertical-align: middle;
+text-align: center;
+border: 1px solid red;
+color: red;
+font-size: 13px;
+margin-right: 5px;
+}
