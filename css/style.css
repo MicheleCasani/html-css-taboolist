@@ -1,3 +1,35 @@
-.logo{display: inline-block;}
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;}
+/* logo */
+.logo{display: inline-block;
+padding: 10px;}
+/* allineamento */
 .aligne-middle{vertical-align: middle;}
+/* sfondo header */
 header{background-color: white;}
+/* sfondo pagina */
+.sfondo-body{background-color: rgb(230, 230, 230);}
+/* sfondo body */
+.sfondo-lista{background-color: white; 
+    margin: 3% 30% 1% 20%;
+padding: 2% 0% 5% 5%;}
+/* pulsante 1 */
+#tasto-blu{background-color: rgb(84, 84, 196);
+color: white; padding: 5px; border-radius: 10px;
+border: 1px solid grey}
+/* pulsante2 */
+#tasto-grigio{background-color: rgb(255, 255, 255);
+    color: rgb(175, 175, 175); padding: 5px; border-radius: 10px;
+border: 1px solid grey;}
+/* margine tabella*/
+.margine{padding-top: 5%;}
+/* marginen tabella interno */
+.margine2{padding-top: 2%;}
+/* dot-none */
+.dot-none{ list-style-type: none;}
+/* pulsanti lista */
+.pulsanti{display: inline-block;}
+/*personalizzazione tasti */
+.edit-pulsanti
+
